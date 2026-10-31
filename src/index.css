@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+/* Custom modern scrollbar for video timelines and galleries */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(147, 51, 234, 0.4);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(147, 51, 234, 0.7);
+}
+
+.font-bebas {
+  font-family: 'Bebas Neue', sans-serif;
+}
+.font-outfit {
+  font-family: 'Outfit', sans-serif;
+}
+
+/* Caption stroke utilities for Alex Hormozi and creator captions */
+.text-stroke-black {
+  -webkit-text-stroke: 2px black;
+}
+.text-stroke-thick {
+  -webkit-text-stroke: 4px black;
+}
+.text-shadow-creator {
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.9), 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+

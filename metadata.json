@@ -1,0 +1,6 @@
+{
+  "name": "ClipMitra AI",
+  "description": "AI-powered auto video clipper for generating viral 9:16 shorts and reels with synchronized multilingual captions, smart crop, and SEO metadata.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
